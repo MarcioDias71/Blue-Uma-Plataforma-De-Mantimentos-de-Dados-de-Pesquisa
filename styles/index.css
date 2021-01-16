@@ -1,0 +1,1307 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+ /* parei aqui */
+ .row .caixaproj {
+     margin-bottom: 1%;
+     margin-top: 7%;
+ }
+
+ /*
+
+
+COMEÇO DA=OS ELEMENTOS REFERENTE AO CABEÇALHO
+
+  */
+ .cabecalho {
+     /* background: green; */
+     height: 100%;
+     width: 100%;
+     padding: 2%;
+ }
+
+ /* Nome Blue */
+ .titlec {
+   order: 2;
+   text-align: center;
+   font-size: 10vw;
+  }
+ .logo{
+
+     display: flex;
+     flex-direction: column;
+
+
+
+     order: 3;
+
+
+text-align: center;
+
+
+ }
+ .logo img{
+
+   width: 75%;
+   height: 75%;
+
+ }
+   .nomeUser {
+     display: none;
+     /* float: right;
+     position: absolute;
+     right: calc(3% + 35px);
+     font-size: 1.5rem;
+     top: calc(50% - 20px); */
+
+   }
+   .imagec {
+     /* position: absolute;
+     width: 35px;
+     float: right;
+     top: calc(50% - 0px); */
+     display: none;
+ }
+ .logotitle{
+
+   /* background: purple; */
+
+ display: flex;
+ flex-direction: column;
+
+
+
+ margin: 0 auto;
+   width: 50%;
+ }
+ /* Caixa  */
+ .caixaproj {
+     background: #FFFFFF;
+     /* Back / Lines in white */
+     width: 100%;
+     height: 80%;
+     display: block;
+     margin: auto;
+     background: #FFFFFF;
+     /* Back / Lines in white */
+     border: 1px solid #E6E6F0;
+     box-sizing: border-box;
+     border-radius: 76px;
+ }
+ /* Caixa  */
+ .caixaproj {
+     background: #FFFFFF;
+     /* Back / Lines in white */
+     width: 100%;
+     height: 80%;
+     display: block;
+     margin: auto;
+
+     background: #FFFFFF;
+     /* Back / Lines in white */
+     border: 1px solid #E6E6F0;
+     box-sizing: border-box;
+     border-radius: 0%;
+ }
+ /* Foto */
+ .profile {
+     /* position: relative;
+      left: 2%;
+     top: calc(50% - 50px); */
+     display: none;
+     /* display: block; */
+
+ }
+
+ .profile img {
+     display: none;
+ }
+
+ .titleproj {
+
+     margin-top:5%;
+     margin-left:5%;
+     margin-right: 0px;
+     float: left;
+     font-size: 0.8rem;
+     text-align: left;
+     width: 80%;
+     word-wrap: break-word;
+
+ }
+
+ .autproj {
+     position: relative;
+     top: 0%;
+     left: 5%;
+
+     display: none;
+     /* bottom: 3%; */
+     clear: both;
+     font-size: 0.8rem;
+     /* background-color: lawngreen; */
+ }
+ /* Lixeira */
+ .logoexcluir {
+     /* position: relative;
+     top: -52%;
+     right: 0%; */
+     /* margin-top:1%; */
+  /* margin-top:calc(-8% - 100px);
+    margin-right: 10px; */
+    /* background: green; */
+    clear: left;
+    margin-bottom: 100%;
+ }
+  .logoexcluir img{
+         /* position: relative;
+         top: -52%;
+         right: 0%; */
+         /* margin-top:1%; */
+      /* margin-top:calc(-8% - 100px);
+        margin-right: 10px; */
+        /* background: green; */
+        width: 100%;
+        height: 100%;
+     }
+ /* Lapis */
+ .logoedit {
+     /* position: relative;
+     top: -25%;
+     right: 75%; */
+    /* margin-top:calc(-8% - 2%);
+    margin-right: 10px; */
+     /* background: green; */
+     display: block;
+     clear: left;
+
+
+ }
+ .logoedit img{
+        /* position: relative;
+        top: -52%;
+        right: 0%; */
+        /* margin-top:1%; */
+     /* margin-top:calc(-8% - 100px);
+       margin-right: 10px; */
+       /* background: green; */
+       width: 100%;
+       height: 100%;
+    }
+
+ .caixaicons{
+   /* background: purple; */
+   float: right;
+   position: relative;
+   bottom: 0px ;
+   right: 2%;
+   /* min-height: 10em; */
+   width: 5%;
+ }
+ .sair{
+   position: fixed;
+   bottom: 2vh;
+   left: 2vw;
+   color: red;
+ }
+ .sair  *{
+   width: 10vw;
+   height: auto;
+ }
+
+ .caixamais {
+     position: fixed;
+     right: 2vw;
+     bottom: 2vh;
+ }
+ .caixamais *{
+   width: 10vw;
+   height: auto;
+ }
+ /* ================== main 02 ===================*/
+
+ .seta img {
+     /* visibility: hidden; */
+     width: 30vw;
+ }
+
+ .seta{
+     /* visibility: hidden; */
+     display: block;
+     /* background: lawngreen; */
+     text-align: center;
+     margin-top: 1vh;
+     margin-right: calc(40% - 15vw);
+ }
+
+.maisicon img {
+  width: 10vw;
+  /* background: red; */
+  margin-top: -1vh;
+  margin-left: calc(60% + 15vw);
+}
+
+ .caixa {
+    /* background: yellow; */
+     width: 100vw;
+     height: 100vh;
+     /* background: green; */
+ }
+ .frase {
+     /* background: purple; */
+     float: left;
+     margin-top: 20vh;
+     margin-left: calc(50vw - 32.5vw);
+     width: 65vw;
+     height: 5vh;
+     text-align: center;
+     font-size: 0.9rem;
+ }
+}
+
+
+/* Small */
+
+@media screen and (max-width: 768px) and (min-width: 481px)  {
+  /* estilos aqui */
+  /* Centralizar botão  */
+
+  .row .caixaproj {
+      margin-bottom: 1%;
+      margin-top: 7%;
+  }
+
+  /*
+
+
+COMEÇO DA=OS ELEMENTOS REFERENTE AO CABEÇALHO
+
+   */
+  .cabecalho {
+      /* background: green; */
+      height: 100%;
+      width: 100%;
+      padding: 2%;
+  }
+
+  /* Nome Blue */
+  .titlec {
+    order: 2;
+    text-align: center;
+    font-size: 10vw;
+   }
+  .logo{
+
+      display: flex;
+      flex-direction: column;
+
+
+
+      order: 3;
+
+
+text-align: center;
+
+
+  }
+  .logo img{
+
+    width: 75%;
+    height: 75%;
+
+  }
+    .nomeUser {
+      display: none;
+      /* float: right;
+      position: absolute;
+      right: calc(3% + 35px);
+      font-size: 1.5rem;
+      top: calc(50% - 20px); */
+
+    }
+    .imagec {
+      /* position: absolute;
+      width: 35px;
+      float: right;
+      top: calc(50% - 0px); */
+      display: none;
+  }
+  .logotitle{
+
+    /* background: purple; */
+
+  display: flex;
+  flex-direction: column;
+
+
+
+  margin: 0 auto;
+    width: 50%;
+  }
+
+  /* FIM CABEÇALHO */
+  /* Caixa  */
+  .caixaproj {
+      background: #FFFFFF;
+      /* Back / Lines in white */
+      width: 100%;
+      height: 80%;
+      display: block;
+      margin: auto;
+      background: #FFFFFF;
+      /* Back / Lines in white */
+      border: 1px solid #E6E6F0;
+      box-sizing: border-box;
+      border-radius: 76px;
+  }
+  /* Caixa  */
+  .caixaproj {
+      background: #FFFFFF;
+      /* Back / Lines in white */
+      width: 100%;
+      height: 70%;
+      display: block;
+      margin: auto;
+
+      background: #FFFFFF;
+      /* Back / Lines in white */
+      border: 1px solid #E6E6F0;
+      box-sizing: border-box;
+      border-radius: 0%;
+  }
+  /* Foto */
+  .profile {
+      /* position: relative;
+       left: 2%;
+      top: calc(50% - 50px); */
+      display: none;
+      /* display: block; */
+
+  }
+
+  .profile img {
+      display: none;
+  }
+
+  .titleproj {
+
+      margin-top:5%;
+      margin-left:5%;
+      margin-right: 0px;
+      float: left;
+      font-size: 1rem;
+      text-align: left;
+      width: 80%;
+      word-wrap: break-word;
+
+  }
+
+  .autproj {
+      position: relative;
+      top: 0%;
+      left: 5%;
+
+
+      /* bottom: 3%; */
+      clear: both;
+      font-size: 0.8rem;
+      /* background-color: lawngreen; */
+  }
+  /* Lixeira */
+  .logoexcluir {
+      /* position: relative;
+      top: -52%;
+      right: 0%; */
+      /* margin-top:1%; */
+   /* margin-top:calc(-8% - 100px);
+     margin-right: 10px; */
+     /* background: green; */
+     clear: left;
+     margin-bottom: 100%;
+  }
+   .logoexcluir img{
+          /* position: relative;
+          top: -52%;
+          right: 0%; */
+          /* margin-top:1%; */
+       /* margin-top:calc(-8% - 100px);
+         margin-right: 10px; */
+         /* background: green; */
+         width: 30px;
+         height: auto;
+      }
+  /* Lapis */
+  .logoedit {
+      /* position: relative;
+      top: -25%;
+      right: 75%; */
+     /* margin-top:calc(-8% - 2%);
+     margin-right: 10px; */
+      /* background: green; */
+      display: block;
+      clear: left;
+
+
+  }
+  .logoedit img{
+         /* position: relative;
+         top: -52%;
+         right: 0%; */
+         /* margin-top:1%; */
+      /* margin-top:calc(-8% - 100px);
+        margin-right: 10px; */
+        /* background: green; */
+        width: 30px;
+        height: auto;
+     }
+
+     .sair{
+       position: fixed;
+       bottom: 2vh;
+       left: 2vw;
+       color: red;
+     }
+     .sair  *{
+       width: 8vw;
+       height: auto;
+     }
+
+     .caixamais {
+         position: fixed;
+         right: 2vw;
+         bottom: 2vh;
+     }
+     .caixamais *{
+       width: 8vw;
+       height: auto;
+     }
+
+  .caixaicons{
+    /* background: purple; */
+    float: right;
+    position: relative;
+    bottom: calc(65% - 10px) ;
+    right: 2%;
+    /* min-height: 10em; */
+
+    width: 5%;
+
+
+  }
+  /* Verificado */
+  /* ================== main 02 ===================*/
+
+  .seta img {
+      /* visibility: hidden; */
+      width: 20vw;
+  }
+
+  .seta{
+      /* visibility: hidden; */
+      display: block;
+      /* background: lawngreen; */
+      text-align: center;
+      margin-top: 1vh;
+      margin-right: calc(40% - 10vw);
+  }
+
+ .maisicon img {
+   width: 5vw;
+   /* background: red; */
+   margin-top: -1vh;
+   margin-left: calc(60% + 10vw);
+ }
+
+  .caixa {
+     /* background: yellow; */
+      width: 100vw;
+      height: 100vh;
+      /* background: green; */
+  }
+  .frase {
+      /* background: purple; */
+      float: left;
+      margin-top: 20vh;
+      margin-left: calc(50vw - 32.5vw);
+      width: 65vw;
+      height: 5vh;
+      text-align: center;
+      font-size: 1rem;
+  }
+
+}
+
+/* medio */
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+
+    /* estilos aqui */
+    /* Centralizar botão  */
+    body {
+        background: #C4C4C4;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    html {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .row .caixaproj {
+        margin-bottom: 1%;
+        margin-top: 7%;
+    }
+    .cabecalho {
+        /* background: green; */
+        height: 100%;
+        width: 100%;
+        padding: 2%;
+    }
+
+    /* Nome Blue */
+    .titlec {
+
+          margin-left:50px;
+     }
+    .logo{
+      float: left;
+      margin-left: -10px;
+
+    }
+    .logo img{
+
+        width: 100px;
+        height: auto;
+
+    }
+    .logotitle{
+/*
+      background: purple; */
+
+      width: 30%;
+    }
+    /* Caixa  */
+    .caixaproj {
+        background: #FFFFFF;
+        /* Back / Lines in white */
+        width: 90%;
+        height: 80%;
+        display: block;
+        margin: auto;
+        background: #FFFFFF;
+        /* Back / Lines in white */
+        border: 1px solid #E6E6F0;
+        box-sizing: border-box;
+        border-radius: 76px;
+    }
+    /* Caixa  */
+    .caixaproj {
+        background: #FFFFFF;
+        /* Back / Lines in white */
+        width: 100%;
+        height: 70%;
+        display: block;
+        margin: auto;
+
+        background: #FFFFFF;
+        /* Back / Lines in white */
+        border: 1px solid #E6E6F0;
+        box-sizing: border-box;
+        border-radius: 0%;
+    }
+    /* Foto */
+    .profile {
+        /* position: relative;
+         left: 2%;
+        top: calc(50% - 50px); */
+        display: none;
+        /* display: block; */
+
+    }
+
+    .profile img {
+        display: none;
+    }
+
+    .titleproj {
+
+        margin-top:5%;
+        margin-left:5%;
+        margin-right: 0px;
+        float: left;
+        font-size: 1.2rem;
+        text-align: left;
+        width: 80%;
+        word-wrap: break-word;
+
+    }
+
+    .autproj {
+        position: relative;
+        top: 5%;
+        left: 5%;
+
+
+        /* bottom: 3%; */
+        clear: both;
+        font-size: 0.8rem;
+        /* background-color: lawngreen; */
+    }
+    /* Lixeira */
+    .logoexcluir {
+        /* position: relative;
+        top: -52%;
+        right: 0%; */
+        /* margin-top:1%; */
+     /* margin-top:calc(-8% - 100px);
+       margin-right: 10px; */
+       /* background: green; */
+       clear: left;
+       margin-bottom: 100%;
+    }
+     .logoexcluir img{
+            /* position: relative;
+            top: -52%;
+            right: 0%; */
+            /* margin-top:1%; */
+         /* margin-top:calc(-8% - 100px);
+           margin-right: 10px; */
+           /* background: green; */
+           width: 30px;
+           height: auto;
+        }
+    /* Lapis */
+    .logoedit {
+        /* position: relative;
+        top: -25%;
+        right: 75%; */
+       /* margin-top:calc(-8% - 2%);
+       margin-right: 10px; */
+        /* background: green; */
+        display: block;
+        clear: left;
+
+
+    }
+    .logoedit img{
+           /* position: relative;
+           top: -52%;
+           right: 0%; */
+           /* margin-top:1%; */
+        /* margin-top:calc(-8% - 100px);
+          margin-right: 10px; */
+          /* background: green; */
+          width: 30px;
+          height: auto;
+       }
+
+       .sair{
+         display: none;
+       }
+
+       .caixamais {
+           position: fixed;
+           right: 2vw;
+           bottom: 2vh;
+       }
+       .caixamais *{
+         width: 8vw;
+         height: auto;
+       }
+
+    .caixaicons{
+      /* background: purple; */
+      float: right;
+      position: relative;
+      bottom: calc(65% - 50px) ;
+      right: 2%;
+      /* min-height: 10em; */
+      width: 5%;
+    }
+    /* Verificado */
+
+    .nomeUser a{
+
+        float: right;
+        position: absolute;
+        /* right: calc(3% + 35px);
+        font-size: 1.5rem;
+        top: calc(50% - 20px); */
+    }
+
+    .imagec {
+        width: 35px;
+        float: right;
+        position: absolute;
+        right: 2%;
+        top: calc(50% - 17.5px);
+    }
+
+    /* ================== main 02 ===================*/
+
+    .seta img {
+        /* visibility: hidden; */
+        width: 20vw;
+    }
+
+    .seta{
+        /* visibility: hidden; */
+        display: block;
+        /* background: lawngreen; */
+        text-align: center;
+        margin-top: 1vh;
+        margin-right: calc(40% - 10vw);
+    }
+
+   .maisicon img {
+     width: 5vw;
+     /* background: red; */
+     margin-top: -1vh;
+     margin-left: calc(60% + 10vw);
+   }
+
+    .caixa {
+       /* background: yellow; */
+        width: 100vw;
+        height: 100vh;
+        /* background: green; */
+    }
+    .frase {
+        /* background: purple; */
+        float: left;
+        margin-top: 20vh;
+        margin-left: calc(50vw - 32.5vw);
+        width: 65vw;
+        height: 5vh;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/* Grande */
+
+@media screen and (min-width: 1024px) and (max-width: 1599px)  {
+    /* estilos aqui */
+      /* Estilo Padrão se adaptou bem */
+      body {
+          background: #C4C4C4;
+          max-width: 100%;
+          overflow-x: hidden;
+      }
+
+      html {
+          max-width: 100%;
+          overflow-x: hidden;
+      }
+
+      .row .caixaproj {
+          margin-bottom: 1%;
+          margin-top: 7%;
+      }
+      .cabecalho {
+          /* background: green; */
+          height: 100%;
+          width: 100%;
+          padding: 2%;
+      }
+
+      /* Nome Blue */
+      .titlec {
+
+            margin-left:50px;
+       }
+      .logo{
+        float: left;
+        margin-left: -20px;
+
+      }
+      .logo img{
+
+          width: 100px;
+          height: auto;
+
+      }
+      .logotitle{
+/*
+        background: purple; */
+
+        width: 30%;
+      }
+      /* Caixa  */
+      .caixaproj {
+          /* background: #FFFFFF; */
+          background: black;
+          /* Back / Lines in white */
+          width: 90%;
+          height: 70%;
+          display: block;
+          margin: auto;
+          background: #FFFFFF;
+          /* Back / Lines in white */
+          border: 1px solid #E6E6F0;
+          box-sizing: border-box;
+          border-radius: 76px;
+      }
+      /* Foto */
+      .profile {
+          /* position: relative;
+           left: 2%;
+          top: calc(50% - 50px); */
+          margin-top: 4%;
+          margin-left: 4%;
+          margin-right: 4%;
+          width: 250px;
+          height: 250px;
+          /* display: block; */
+
+      }
+
+      .profile img {
+          height: 250px;
+          width: 250px;
+          border-radius: 50%;
+          object-fit: cover;
+          object-position: center;
+      }
+
+      .titleproj {
+
+          margin-top: calc(0% - 250px);
+          margin-left:calc(5% + 250px);
+          margin-right: 1%;
+          font-size: 1.5rem;
+          text-align: left;
+          width: 60%;
+
+      }
+
+      .autproj {
+          position: relative;
+          top: -10%;
+          left: calc( 4% + 250px);
+
+          /* bottom: 3%; */
+          clear: both;
+          /* background-color: lawngreen; */
+      }
+      /* Lixeira */
+      .logoexcluir {
+          /* position: relative;
+          top: -52%;
+          right: 0%; */
+          /* margin-top:1%; */
+       /* margin-top:calc(-8% - 100px);
+         margin-right: 10px; */
+         /* background: green; */
+
+         margin-bottom: calc(70% + 50px);
+      }
+      /* Lapis */
+      .logoedit {
+          /* position: relative;
+          top: -25%;
+          right: 75%; */
+         /* margin-top:calc(-8% - 2%);
+         margin-right: 10px; */
+          /* background: green; */
+          display: block;
+          clear: left;
+      }
+
+
+
+      .caixaicons{
+        /* background: purple; */
+        float: right;
+        position: relative;
+        bottom: calc(65% - 50px) ;
+        right: 2%;
+        /* min-height: 10em; */
+
+        width: 1%;
+
+
+
+
+      }
+      /* Verificado */
+
+      .nomeUser {
+          color: #FFFFFF;
+          float: right;
+          position: absolute;
+          right: calc(3% + 35px);
+          font-size: 1.5rem;
+          top: calc(50% - 20px);
+      }
+
+      .imagec{
+          width: 35px;
+          float: right;
+          position: absolute;
+          right: 2%;
+          top: calc(50% - 17.5px);
+
+      }
+      .sair{
+        display: none;
+      }
+
+      .caixamais {
+          position: fixed;
+          right: 2vw;
+          bottom: 2vh;
+      }
+      .caixamais *{
+        width: 7vw;
+        height: auto;
+      }
+      /* ================== main 02 ===================*/
+
+      .seta img {
+          /* visibility: hidden; */
+          width: 15vw;
+      }
+
+      .seta{
+          /* visibility: hidden; */
+          display: block;
+          /* background: lawngreen; */
+          text-align: center;
+          margin-top: 1vh;
+          margin-right: calc(40% - 7.5vw);
+      }
+
+      .maisicon img {
+       width: 6vw;
+       /* background: red; */
+       margin-top: -1vh;
+       margin-left: calc(60% + 7.5vw);
+      }
+
+      .caixa {
+         /* background: yellow; */
+          width: 100vw;
+          height: 100vh;
+          /* background: green; */
+      }
+      .frase {
+          /* background: purple; */
+          float: left;
+          margin-top: 20vh;
+          margin-left: calc(50vw - 32.5vw);
+          width: 65vw;
+          height: 5vh;
+          text-align: center;
+          font-size: 2rem;
+      }
+
+}
+
+
+/* Extra grande */
+
+@media screen and (min-width: 1600px) {
+    /* estilos aqui */
+    /* Estilo Padrão se adaptou bem */
+
+    body {
+        -
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    html {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .row .caixaproj {
+        margin-bottom: 1%;
+        margin-top: 7%;
+    }
+    .cabecalho {
+        /* background: green; */
+        height: 100%;
+        width: 100%;
+        padding: 2%;
+    }
+
+    /* Nome Blue */
+    .titlec {
+          margin-left:50px;
+     }
+    .logo{
+      float: left;
+      margin-left: -20px;
+
+    }
+    .logo img{
+
+        width: 100px;
+        height: auto;
+
+    }
+    .logotitle{
+/*
+      background: purple; */
+
+      width: 30%;
+    }
+    /* Caixa  */
+    .caixaproj {
+        background: #FFFFFF;
+        /* Back / Lines in white */
+        width: 90%;
+        height: 80%;
+        display: block;
+        margin: auto;
+        background: #FFFFFF;
+        /* Back / Lines in white */
+        border: 1px solid #E6E6F0;
+        box-sizing: border-box;
+        border-radius: 76px;
+    }
+    /* Foto */
+    .profile {
+        /* position: relative;
+         left: 2%;
+        top: calc(50% - 50px); */
+        margin-top: 4%;
+        margin-left: 4%;
+        margin-right: 4%;
+        width: 250px;
+        height: 250px;
+        /* display: block; */
+
+    }
+
+    .profile img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .titleproj {
+
+        margin-top: calc(0% - 250px);
+        margin-left:calc(5% + 250px);
+        margin-right: 1%;
+        font-size: 1.8rem;
+        text-align: left;
+        width: 70%;
+
+    }
+
+    .autproj {
+        position: relative;
+        /* top: 0%; */
+        left: calc( 4% + 250px);
+        /* bottom: 3%; */
+        clear: both;
+        /* background-color: lawngreen; */
+    }
+    /* Lixeira */
+    .logoexcluir {
+        /* position: relative;
+        top: -52%;
+        right: 0%; */
+        /* margin-top:1%; */
+     /* margin-top:calc(-8% - 100px);
+       margin-right: 10px; */
+       /* background: green; */
+       clear: left;
+       margin-bottom: 100%;
+    }
+    /* Lapis */
+    .logoedit {
+        display: block;
+        margin-top: 100%;
+    }
+
+    .caixamais {
+        position: fixed;
+        right: 2vw;
+        bottom: 2vh;
+    }
+    .caixamais *{
+      width: 5vw;
+      height: auto;
+    }
+
+    .caixaicons{
+      /* background: purple; */
+      float: right;
+      position: relative;
+      bottom: calc(50% - 50px) ;
+      right: 2%;
+      /* min-height: 10em; */
+
+      width: 1%;
+
+
+    }
+    /* Verificado */
+
+    .nomeUser {
+
+        float: right;
+        position: absolute;
+        right: calc(3% + 35px);
+        font-size: 1.5rem;
+        top: calc(50% - 20px);
+    }
+
+    .imagec {
+        width: 35px;
+        float: right;
+        position: absolute;
+        right: 2%;
+        top: calc(50% - 17.5px);
+    }
+    .sair{
+      display: none;
+    }
+
+    /* ================== main 02 ===================*/
+    .seta img {
+        /* visibility: hidden; */
+        width: 10vw;
+    }
+
+    .seta{
+        /* visibility: hidden; */
+        display: block;
+        /* background: lawngreen; */
+        text-align: center;
+        margin-top: 1vh;
+        margin-right: calc(40% - 5vw);
+    }
+
+    .maisicon img {
+     width: 4vw;
+     /* background: red; */
+     margin-top: -1vh;
+     margin-left: calc(60% + 5vw);
+    }
+
+    .caixa {
+       /* background: yellow; */
+        width: 100vw;
+        height: 100vh;
+        /* background: green; */
+    }
+    .frase {
+        /* background: purple; */
+        float: left;
+        margin-top: 20vh;
+        margin-left: calc(50vw - 32.5vw);
+        width: 65vw;
+        height: 5vh;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+  }
+
+
+
+
+.row .caixaproj {
+    margin-bottom: 1%;
+    margin-top: 7%;
+}
+
+.cabecalho {
+    background: #2D9CDB;
+    position: relative;
+}
+
+body {
+    background: #C4C4C4;
+
+}
+
+.titlec {
+
+    color: white;
+}
+
+.caixaproj {
+    background: #FFFFFF;
+    /* Back / Lines in white */
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+}
+
+.profile {
+    /* position: relative;
+    left: 2%;
+    top: 15%;
+    width: 250px;
+    height: 250px; */
+    /* display: block; */
+    border-radius: 50%;
+    background: silver;
+    background-size: cover;
+}
+
+.profile img {
+    /* height: 250px;
+    width: 250px;
+    border-radius: 50%; */
+    object-fit: cover;
+    object-position: center;
+}
+
+.titleproj {
+    /* position: relative;
+    top: 26%;
+    margin-left: 5%; */
+    text-decoration: none;
+    color: rgb(18, 149, 201);
+    font-weight: bold;
+    /* font-size: 2rem;
+    text-align: left;
+    width: 70%; */
+}
+
+.autproj {
+    /* position: relative; */
+    /* top: 0%; */
+    /* left: 23%;
+    bottom: 3%;
+    clear: both; */
+    /* background-color: lawngreen; */
+}
+
+
+.btnexcluir {
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+}
+
+.nomeUser {
+    color: #FFFFFF;
+    float: right;
+    position: absolute;
+    right: calc(3% + 35px);
+    font-size: 1.5rem;
+    top: calc(50% - 20px);
+}
+
+.spaceX {
+  width: 100vw;
+  height: 10vh;
+}

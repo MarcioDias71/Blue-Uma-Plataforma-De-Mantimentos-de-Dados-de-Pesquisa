@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width: 480px) {
+    /* estilos aqui */
+    .buttom {
+
+        /* display: flex;
+        flex-direction: row; */
+        /* align-items: center; */
+        padding: 15px 30px;
+        display: block;
+        margin: 0 auto;
+        /* Blue 1 */
+        /* background: #2F80ED; */
+        background: green;
+        color: #FFFFFF;
+        border-radius: 8px;
+    }
+    form a{
+      font-size: 0.7rem;
+      /* color: green; */
+    }
+    .texto {
+        font-size: 40px;
+        display: block;
+        /* padding: -50%; */
+        margin-top: 10%;
+        /* line-height: 42px;  */
+        /* identical to box height, or 52% */
+        /*
+        text-align: center;
+         */
+        /* Texts In purple / Título */
+    }
+    .seusdados{
+      width: 100%;
+      height: 50%;
+      margin: auto;
+      margin-top: -15%;
+      padding: 10%;
+    }
+}
+
+
+/* Small */
+
+@media screen and (max-width: 768px) and (min-width: 481px)  {
+    /* estilos aqui */
+    .buttom {
+
+        /* display: flex;
+        flex-direction: row; */
+        /* align-items: center; */
+        padding: 10px 35px;
+        display: block;
+        margin: 0 auto;
+        /* Blue 1 */
+        /* background: #2F80ED; */
+        background: green;
+        color: #FFFFFF;
+        border-radius: 8px;
+    }
+    form a{
+      font-size: 0.8rem;
+    }
+    .texto {
+        font-size: 45px;
+        display: block;
+        /* padding: -50%; */
+        margin-top: 10%;
+        /* line-height: 42px;  */
+        /* identical to box height, or 52% */
+        /*
+        text-align: center;
+         */
+        /* Texts In purple / Título */
+    }
+    .seusdados{
+      width: 80%;
+      height: 50%;
+      margin: auto;
+      margin-top: -15%;
+      padding: 10%;
+    }
+}
+
+
+/* Medio */
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* estilos aqui */
+    /* Centralizar botão  */
+    .buttom {
+
+        /* display: flex;
+        flex-direction: row; */
+        /* align-items: center; */
+        padding: 15px 40px;
+        display: block;
+        margin: 0 auto;
+        /* Blue 1 */
+        /* background: #2F80ED; */
+        background: green;
+        color: #FFFFFF;
+        border-radius: 8px;
+    }
+    form a{
+      font-size: 0.8rem;
+    }
+    .texto {
+        font-size: 50px;
+        display: block;
+        /* padding: -50%; */
+        margin-top: 10%;
+        /* line-height: 42px;  */
+        /* identical to box height, or 52% */
+        /*
+        text-align: center;
+         */
+        /* Texts In purple / Título */
+    }
+    .seusdados{
+      width: 70%;
+      height: 50%;
+      margin: auto;
+      margin-top: -15%;
+      padding: 10%;
+    }
+}
+
+
+/* Grande */
+
+@media screen and (min-width: 1024px) {
+    /* estilos aqui */
+      /* Estilo Padrão se adaptou bem */
+      .buttom {
+          display: block;
+          margin: 0 auto;
+          flex-direction: row;
+          align-items: center;
+
+          padding: 15px 40px;
+          /* Blue 1 */
+
+      }
+      .texto {
+          font-size: 80px;
+          display: block;
+          /* padding: -50%; */
+          margin-top: 10%;
+          /* line-height: 42px;  */
+          /* identical to box height, or 52% */
+          /*
+          text-align: center;
+           */
+          /* Texts In purple / Título */
+      }
+      .seusdados{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        margin-top: -15%;
+        padding: 10%;
+      }
+}
+
+
+/* Extra grande */
+
+@media screen and (min-width: 1600px) {
+    /* estilos aqui */
+    /* Estilo Padrão se adaptou bem */
+    .buttom {
+        display: block;
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+
+        padding: 15px 40px;
+        /* Blue 1 */
+
+    }
+    .texto {
+        font-size: 80px;
+        display: block;
+        /* padding: -50%; */
+        margin-top: 10%;
+        /* line-height: 42px;  */
+        /* identical to box height, or 52% */
+        /*
+        text-align: center;
+         */
+        /* Texts In purple / Título */
+    }
+    .seusdados{
+      width: 50%;
+      height: 50%;
+      margin: auto;
+      margin-top: -15%;
+      padding: 10%;
+    }
+}
+/* Media */
+
+html {
+    height: 100%;
+    background: #F0F0F7;
+}
+
+.caixacas {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* Back / Background */
+    background: #F0F0F7;
+}
+
+.topo {
+    width: 100%;
+    height: 50%;
+    margin-top: -20%;
+    /* margin-left:-20%; */
+    padding: 20%;
+    text-align: center;
+    background: #2D9CDB;
+}
+
+.fundotop {
+    background: #2D9CDB;
+}
+
+.texto {
+    font-family: Archivo;
+    font-style: normal;
+    /* font-weight: bold; */
+
+    color: #FFFFFF;
+
+    /* line-height: 42px;  */
+    /* identical to box height, or 52% */
+    /*
+    text-align: center;
+     */
+    /* Texts In purple / Título */
+}
+
+.seusdados {
+    background: white;
+    border-radius: 5%;
+
+    text-align: left;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.buttom {
+
+    /* Blue 1 */
+    background: #2F80ED;
+    color: #FFFFFF;
+    border-radius: 8px;
+}

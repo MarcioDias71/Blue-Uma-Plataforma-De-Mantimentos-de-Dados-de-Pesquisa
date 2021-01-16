@@ -1,0 +1,647 @@
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            @media screen and (max-width: 480px) {
+                /* parei aqui */
+
+                /*
+
+
+            COMEÇO DA=OS ELEMENTOS REFERENTE AO CABEÇALHO
+
+              */
+                .cabecalho {
+                    /* background: green; */
+                    height: 100%;
+                    width: 100%;
+                    padding: 2%;
+                }
+                /* Nome Blue */
+                .titlec {
+                    order: 2;
+                    text-align: center;
+                    font-size: 10vw;
+                }
+                .logo {
+                    display: flex;
+                    flex-direction: column;
+                    order: 3;
+                    text-align: center;
+                }
+                .logo img {
+                    width: 75%;
+                    height: 75%;
+                }
+                .nomeUser {
+                    display: none;
+                    /* float: right;
+                   position: absolute;
+                   right: calc(3% + 35px);
+                   font-size: 1.5rem;
+                   top: calc(50% - 20px); */
+                }
+                .imagec {
+                    /* position: absolute;
+                   width: 35px;
+                   float: right;
+                   top: calc(50% - 0px); */
+                    display: none;
+                }
+                .logotitle {
+                    /* background: purple; */
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    width: 50%;
+                }
+                /* fim cabecalho */
+                .figura img {
+                    height: 180px;
+                    width: 180px;
+                    /* min-width: 200px;
+                    min-height: 100px; */
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .figura {
+                    display: block;
+                    margin: 0 auto;
+
+                }
+                .titulo {
+                    font-size: 1.4rem;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .autores {
+                    margin-left: 4%;
+                }
+                .autores p {
+                    margin-left: 1.5%;
+                }
+                .artigo {
+
+                  display: block;
+                  margin: 0 auto;
+                  text-align: center;
+                  width: 50%;
+
+
+                }
+                .artigo embed {
+                    display: none;
+                }
+                .artigo a {
+                    visibility: hidden;
+
+                }
+                .artigo a img {
+                  visibility: visible ;
+                    margin-left: calc(50% - 35px);
+                  margin-top: 5%;
+                    margin-bottom: 2%;
+                }
+                .artigo label {
+                  font-size: 1rem;
+
+                }
+                .relatorio {
+                    /* margin-right: 10%; */
+
+                    display: block;
+                    margin: 0 auto;
+                    text-align: center;
+                    width: 50%;
+                }
+                .relatorio label {
+                    font-size: 1rem;
+
+                  }
+                .relatorio embed {
+                display: none;
+                text-align: center;
+
+                }
+                .relatorio a {
+                  visibility: hidden;
+
+                }
+                .relatorio a img {
+                  visibility: visible ;
+                margin-left: calc(50% - 35px);
+                  margin-top: 5%;
+                  margin-bottom: 2%;
+                }
+                .centerize {
+                  display: block;
+                  margin: 0 auto;
+
+                }
+            }
+            /* Small */
+
+            @media screen and (max-width: 768px) and (min-width: 481px) {
+                /*
+            COMEÇO DA=OS ELEMENTOS REFERENTE AO CABEÇALHO
+
+               */
+                .cabecalho {
+                    background: green;
+                    height: 100%;
+                    width: 100%;
+                    padding: 2%;
+                }
+                /* Nome Blue */
+                .titlec {
+                    order: 2;
+                    text-align: center;
+                    font-size: 10vw;
+                }
+                .logo {
+                    display: flex;
+                    flex-direction: column;
+                    order: 3;
+                    text-align: center;
+                }
+                .logo img {
+                    width: 75%;
+                    height: 75%;
+                }
+
+
+                .logotitle {
+                    /* background: purple; */
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    width: 50%;
+                }
+                /* FIM CABEÇALHO */
+                .figura img {
+                    height: 250px;
+                    width: 250px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .figura {
+                    display: block;
+                    margin: 0 auto;
+
+                }
+                .titulo {
+                    font-size: 1.6rem;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .autores {
+                    margin-left: 4%;
+                }
+                .autores p {
+                    margin-left: 1.5%;
+                }
+
+                .artigo {
+
+                  display: block;
+                  margin: 0 auto;
+                  text-align: center;
+                  width: 50%;
+
+
+                }
+                .artigo embed {
+                    display: none;
+                }
+                .artigo a {
+                    visibility: hidden;
+
+                }
+                .artigo a img {
+                  visibility: visible ;
+                margin-left: 30%;
+                  margin-top: 5%;
+
+                }
+                .relatorio {
+                    /* margin-right: 10%; */
+
+                    display: block;
+                    margin: 0 auto;
+                    text-align: center;
+                    width: 50%;
+                }
+                .relatorio embed {
+                display: none;
+                  text-align: center;
+
+
+                }
+                .relatorio a {
+                  visibility: hidden;
+
+                }
+                .relatorio a img {
+                  visibility: visible ;
+                  margin-left: 30%;
+                  margin-top: 5%;
+
+                }
+                .centerize {
+                  display: block;
+                  margin: 0 auto;
+
+                  /* background: green; */
+
+
+                }
+            }
+
+            @media screen and (min-width: 769px) and (max-width: 1023px) {
+                /* estilos aqui */
+                .cabecalho {
+                    /* background: green; */
+                    height: 100%;
+                    width: 100%;
+                    padding: 2%;
+                }
+                /* Nome Blue */
+                .titlec {
+                    margin-left: 50px;
+                }
+                .logo {
+                    float: left;
+                    margin-left: -10px;
+                }
+                .logo img {
+                    width: 100px;
+                    height: auto;
+                }
+                .logotitle {
+                    /*
+                  background: purple; */
+                    width: 30%;
+                }
+                .cabe {
+                    /* background-color: lightskyblue; */
+                    border-radius: 8px;
+                    margin: 0 auto;
+
+                    padding: 100%;
+                }
+
+                .col-sm-12 {
+                    /* background-color: linen; */
+                    margin-bottom: 2%;
+                }
+                .caixaresumo {
+                    padding-top: 10px;
+                    border: 1px solid #BDBDBD;
+                    border-radius: 30px;
+                    text-align: left;
+                    margin: 0 auto;
+                    word-wrap: break-word;
+                }
+                .caixaresumo p {
+                    margin-left: 8%;
+                    width: 80%;
+                }
+                .row {
+                    background-color: #FFFFFF;
+                    border-radius: 10px;
+                    margin-top: 2%;
+                }
+                .figura img {
+                    height: 250px;
+                    width: 250px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .figura {
+                    display: block;
+                    margin: 0 auto;
+
+                }
+                .titulo {
+                    font-size: 1.6rem;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .autores {
+                    /* margin-left: 4%; */
+                }
+                .autores p {
+                    margin-left: 1.5%;
+                }
+
+
+
+                .artigo {
+
+                  display: block;
+                  margin: 0 auto;
+                  text-align: center;
+                  width: 50%;
+
+
+                }
+                .artigo embed {
+                    display: none;
+                }
+                .artigo a {
+                    visibility: hidden;
+
+                }
+                .artigo a img {
+                  visibility: visible ;
+                  margin-left: 15%;
+                  margin-top: 5%;
+
+                }
+                .relatorio {
+                    /* margin-right: 10%; */
+
+                    display: block;
+                    margin: 0 auto;
+                    text-align: center;
+                    width: 50%;
+                }
+                .relatorio embed {
+                display: none;
+                  text-align: center;
+
+
+                }
+                .relatorio a {
+                  visibility: hidden;
+
+                }
+                .relatorio a img {
+                  visibility: visible ;
+                  margin-left: 15%;
+                  margin-top: 5%;
+
+                }
+                .centerize {
+                  display: block;
+                  margin: 0 auto;
+
+
+
+                }
+            }
+            /* Grande */
+
+            @media screen and (min-width: 1024px) and (max-width: 1599px) {
+                /* estilos aqui */
+                /* Estilo Padrão se adaptou bem */
+                .cabecalho {
+                    /* background: green; */
+                    height: 100%;
+                    width: 100%;
+                    padding: 2%;
+                }
+                /* Nome Blue */
+                .titlec {
+                    margin-left: 50px;
+                }
+                .logo {
+                    float: left;
+                    margin-left: -20px;
+                }
+                .logo img {
+                    width: 100px;
+                    height: auto;
+                }
+                .logotitle {
+                    /*
+                    background: purple; */
+                    width: 30%;
+                }
+                .figura img {
+                    height: 250px;
+                    width: 250px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: center;
+                    float: left;
+                }
+                .txtcabecalho p {
+                    /* background-color: lime; */
+                }
+                .txtcabecalho {
+                    /* background-color: lime; */
+                    display: block;
+                    float: left;
+                    width: 50%;
+                    margin-top: -30px;
+                    margin-left: 40px;
+                }
+                .artigo {
+
+                    float: left;
+                }
+                .artigo embed {
+                      margin-left:15%;
+                      width: 300px;
+                      height: 350px;
+                }
+                .artigo a {
+                  text-align: center;
+                  margin: 0 auto;
+                  margin-left: 40%;
+
+                }
+                .relatorio {
+                    /* margin-right: 10%; */
+
+                        float: left;
+
+                }
+                .relatorio embed {
+                  text-align: center;
+                  margin-left:15%;
+                  width: 300px;
+                  height: 350px;
+                    margin-right: 5%;
+
+                }
+                .relatorio a {
+                  text-align: center;
+                  margin-left: 40%;
+                }
+                .centerize {
+                    display: flex;
+                    justify-content: center;
+
+                }
+            }
+            /* Extra grande */
+
+            @media screen and (min-width: 1600px) {
+                /* estilos aqui */
+                /* Estilo Padrão se adaptou bem */
+                .cabecalho {
+                    /* background: green; */
+                    height: 100%;
+                    width: 100%;
+                    padding: 2%;
+                }
+                /* Nome Blue */
+                .titlec {
+                    margin-left: 50px;
+                }
+                .logo {
+                    float: left;
+                    margin-left: -20px;
+                }
+                .logo img {
+                    width: 100px;
+                    height: auto;
+                }
+                .logotitle {
+                    /*
+                  background: purple; */
+                    width: 30%;
+                }
+                .figura img {
+                    height: 250px;
+                    width: 250px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: center;
+                    float: left;
+                }
+                .txtcabecalho p {
+                    /* background-color: lime; */
+                }
+                .txtcabecalho {
+                    /* background-color: lime; */
+                    display: block;
+                    float: left;
+                    width: 70%;
+                    margin-top: -30px;
+                    margin-left: 40px;
+                }
+                .artigo {
+                    /*
+        margin-right: 5%; */
+                    /* left: -90px; */
+                    /* margin-left: 10%; */
+
+                    /* background-color:black; */
+                    float: left;
+                }
+                .artigo embed {
+                      margin-left:15%;
+                      width: 300px;
+                      height: 400px;
+                }
+                .artigo a {
+                  text-align: center;
+                  margin: 0 auto;
+                  margin-left: 42%;
+                }
+                .relatorio {
+                    /* margin-right: 10%; */
+                        /* background-color:orange; */
+                        float: left;
+                        margin-left: 50px;
+                }
+                .relatorio embed {
+                  text-align: center;
+                  margin-left:15%;
+                  width: 300px;
+                  height: 400px;
+                  margin-right: 5%;
+                }
+                .relatorio a {
+                  text-align: center;
+                  margin-left: 42%;
+                }
+                .centerize {
+                      display: flex;
+                      justify-content: center;
+
+                }
+
+            }
+
+            .cabecalho {
+                background: #2D9CDB;
+            }
+
+            body {
+                background: #F0F0F7;
+            }
+
+            .titlec {
+          
+            color: white;
+            }
+            .titlec a{
+                text-decoration: none;
+            }
+
+            .cabe {
+                /* background-color: lightskyblue; */
+                border-radius: 8px;
+                padding: 10px;
+                width: 100%;
+            }
+
+
+            .col-sm-12 {
+                /* background-color: linen; */
+                margin-bottom: 2%;
+            }
+
+            .caixaresumo {
+                padding-top: 10px;
+                border: 1px solid #BDBDBD;
+                border-radius: 30px;
+                text-align: left;
+                margin: 0 auto;
+                word-wrap: break-word;
+            }
+
+            .caixaresumo p {
+                margin-left: 8%;
+                width: 80%;
+            }
+
+            .row {
+                background-color: #FFFFFF;
+                border-radius: 10px;
+            }
+
+            .centerize {
+
+
+
+            }
+
+
+            .row {
+                margin-top: 2%;
+            }
+
+            .figura {
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            hr {
+                width: 90%;
+            }

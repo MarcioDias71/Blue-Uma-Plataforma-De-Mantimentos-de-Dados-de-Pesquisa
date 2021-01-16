@@ -1,0 +1,582 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+ /* parei aqui */
+ /*
+
+COMEÇO DA=OS ELEMENTOS REFERENTE AO CABEÇALHO
+*/
+   .cabecalho {
+       /* background: green; */
+       height: 100%;
+       width: 100%;
+       padding: 2%;
+   }
+
+   /* Nome Blue */
+   .titlec {
+     order: 2;
+     text-align: center;
+     font-size: 10vw;
+     color: #FFFFFF;
+    }
+   .logo{
+
+       display: flex;
+       flex-direction: column;
+
+
+
+       order: 3;
+
+
+  text-align: center;
+
+
+   }
+   .logo img{
+
+     width: 75%;
+     height: 75%;
+
+   }
+     .nomeUser {
+       display: none;
+       /* float: right;
+       position: absolute;
+       right: calc(3% + 35px);
+       font-size: 1.5rem;
+       top: calc(50% - 20px); */
+
+     }
+     .imagec {
+       /* position: absolute;
+       width: 35px;
+       float: right;
+       top: calc(50% - 0px); */
+       display: none;
+   }
+   .logotitle{
+
+     /* background: purple; */
+
+   display: flex;
+   flex-direction: column;
+
+
+
+   margin: 0 auto;
+     width: 50%;
+   }
+ /* fim cabecalho */
+
+
+ body {
+     background: #F0F0F7;
+ }
+
+
+
+ .seusdados {
+     background: white;
+     width: 100%;
+     height: 80%;
+     margin: auto;
+     margin-top: 3%;
+     padding: 10%;
+     text-align: left;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ }
+
+ .centerize {
+     display: block;
+     margin: 0 auto;
+ }
+ h2
+{
+  font-size: 1rem;
+}
+#titleedit{
+  text-align: center;
+}
+ #img{
+   width: 50vw;
+   height: auto;
+ }
+ #rel{
+   width: 50vw;
+   height: auto;
+ }
+ #art{
+   width: 50vw;
+   height: auto;
+ }
+
+ #btnDelFoto {
+     /* margin-left: -105%; */
+ }
+
+ #btnDelA2 {
+
+     /* top: 100%; */
+     display: block;
+     position: relative;
+     float: left;
+     left: calc(5% - 50px);
+     top: -8px;
+ }
+ #btnDelA3 {
+
+     /* top: 100%; */
+     display: block;
+     position: relative;
+     float: left;
+     left: calc(5% - 50px);
+     top: -8px;
+ }
+ #btnDelA2 {
+
+     /* top: 100%; */
+     display: block;
+     position: relative;
+     float: left;
+     left: calc(5% - 50px);
+     top: -8px;
+ }
+ #btnDelCo{
+
+
+       /* top: 100%; */
+       display: block;
+       position: relative;
+       float: left;
+       left: calc(5% - 140px);
+       top: -8px;
+
+ }
+
+ .btnup {
+     display: none;
+ }
+
+
+ /* Aparência que terá o seletor de arquivo */
+
+ .btnupload {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 15px 40px;
+     width: 133px;
+     height: 69.31px;
+     background: #56CCF2;
+     text-align: center;
+     border-radius: 8px;
+     color: #FFFFFF;
+ }
+
+
+
+ button {
+     background-color: #FFFFFF;
+     border: none;
+     text-decoration: none;
+ }
+
+
+ /* .figuragem{
+     background-color: lightskyblue;
+     padding: 90px;
+ } */
+
+ .buttom {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 15px 40px;
+     margin: auto;
+     background: #2D9CDB;
+     color: #FFFFFF;
+     border-radius: 8px;
+ }
+
+}
+
+
+/* Small */
+
+@media screen and (max-width: 768px) and (min-width: 481px)  {
+
+/*
+COMEÇO DA=OS ELEMENTOS REFERENTE AO CABEÇALHO
+
+   */
+  .cabecalho {
+      /* background: green; */
+      height: 100%;
+      width: 100%;
+      padding: 2%;
+  }
+
+  /* Nome Blue */
+  .titlec {
+    order: 2;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10vw;
+   }
+  .logo{
+
+      display: flex;
+      flex-direction: column;
+
+
+
+      order: 3;
+
+
+text-align: center;
+
+
+  }
+  .logo img{
+
+    width: 75%;
+    height: 75%;
+
+  }
+    .nomeUser {
+      display: none;
+      /* float: right;
+      position: absolute;
+      right: calc(3% + 35px);
+      font-size: 1.5rem;
+      top: calc(50% - 20px); */
+
+    }
+    .imagec {
+      /* position: absolute;
+      width: 35px;
+      float: right;
+      top: calc(50% - 0px); */
+      display: none;
+  }
+  .logotitle{
+
+    /* background: purple; */
+
+  display: flex;
+  flex-direction: column;
+
+
+
+  margin: 0 auto;
+    width: 50%;
+  }
+
+
+  /* FIM CABEÇALHO */
+  #titleedit{
+    text-align: center;
+  }
+   #img{
+     width: 50vw;
+     height: auto;
+   }
+   #rel{
+     width: 50vw;
+     height: auto;
+   }
+   #art{
+     width: 50vw;
+     height: auto;
+   }
+
+
+
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+
+    /* estilos aqui */
+    .cabecalho {
+        /* background: green; */
+        height: 100%;
+        width: 100%;
+        padding: 2%;
+    }
+
+    /* Nome Blue */
+    .titlec {
+          color: #FFFFFF;
+     }
+    .logo{
+      float: left;
+      margin-left: -10px;
+      margin-right: 10px;
+    }
+    .logo img{
+
+        width: 100px;
+        height: auto;
+
+    }
+    .logotitle{
+/*
+      background: purple; */
+
+      width: 30%;
+    }
+    #titleedit{
+      text-align: center;
+    }
+     #img{
+       width: 300px;
+       height: auto;
+     }
+     #rel{
+       width: 300px;
+       height: 400px;
+     }
+     #art{
+       width: 300px;
+       height: 400px;
+     }
+
+
+
+}
+
+
+/* Grande */
+
+@media screen and (min-width: 1024px) and (max-width: 1599px)  {
+    /* estilos aqui */
+      /* Estilo Padrão se adaptou bem */
+
+      .cabecalho {
+          /* background: green; */
+          height: 100%;
+          width: 100%;
+          padding: 2%;
+      }
+
+      /* Nome Blue */
+      .titlec {
+            color: #FFFFFF;
+       }
+       .logo{
+         float: left;
+         margin-left: -10px;
+         margin-right: 10px;
+       }
+      .logo img{
+
+          width: 100px;
+          height: auto;
+
+      }
+      .logotitle{
+/*
+        background: purple; */
+
+        width: 30%;
+      }
+      #img{
+        width: 300px;
+        height: auto;
+      }
+      #rel{
+        width: 300px;
+        height: 400px;
+      }
+      #art{
+        width: 300px;
+        height: 400px;
+      }
+
+}
+
+
+/* Extra grande */
+
+@media screen and (min-width: 1600px) {
+    /* estilos aqui */
+    /* Estilo Padrão se adaptou bem */
+
+    .cabecalho {
+        /* background: green; */
+        height: 100%;
+        width: 100%;
+        padding: 2%;
+    }
+
+    /* Nome Blue */
+    .titlec {
+          color: #FFFFFF;
+     }
+     .logo{
+       float: left;
+       margin-left: -10px;
+       margin-right: 10px;
+     }
+    .logo img{
+
+        width: 100px;
+        height: auto;
+
+    }
+    .logotitle{
+/*
+      background: purple; */
+
+      width: 30%;
+    }
+    #img{
+      width: 300px;
+      height: auto;
+    }
+    #rel{
+      width: 300px;
+      height: 400px;
+    }
+    #art{
+      width: 300px;
+      height: 400px;
+    }
+
+}
+
+.cabecalho {
+    background: #2D9CDB;
+    height: 100%;
+}
+
+body {
+    background: #F0F0F7;
+}
+
+
+
+.seusdados {
+    background: white;
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 10%;
+    text-align: left;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.centerize {
+    display: block;
+    margin: 0 auto;
+}
+
+#btnDelFoto {
+    margin-left: -105%;
+}
+
+#btnDelA2 {
+    position: relative;
+    /* top: 100%; */
+}
+
+.btnup {
+    display: none;
+}
+
+
+/* Aparência que terá o seletor de arquivo */
+
+.btnupload {
+   display: flex;
+    /* flex-direction: row; */
+    align-items: center; justify-content: center;
+    /* padding: 15px 40px; width: 133px; height: 69.31px;*/ border-radius: 8px;
+    /* padding: 3% 9%; */ width: 18%; height: 4.5vw;
+    background: #56CCF2;
+    text-align: center;
+    color: #FFFFFF; }
+  .btnupload label {
+      text-align: center; justify-content: center;
+    }
+.FloatLeft {
+    display: block;
+    float: left;
+    position: absolute;
+    /* margin: 5px; */
+    /* background-color: lightgreen; */
+}
+
+.FloatLeftX {
+    display: block;
+    float: left;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.FloatLeftXA {
+    display: block;
+    position: relative;
+    float: left;
+    left: calc(5% + 100px);
+    top: 5px;
+}
+
+.FloatLeftXAC {
+    display: block;
+    position: relative;
+    float: left;
+    left: calc(5% + 250px);
+    top: 5px;
+}
+
+button {
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+}
+
+
+/* .figuragem{
+    background-color: lightskyblue;
+    padding: 90px;
+} */
+
+.buttom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 40px;
+    /* position: absolute;
+    width: 197px;
+    height: 56.31px;
+    left: 640px;
+    top: 4269px; */
+    margin: auto;
+    background: #2D9CDB;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: #9C98A6;
+}
+.nomerarq{
+word-wrap: break-word;
+color: red;
+}
+
+.titlec h1{
+  color: #FFFFFF;
+}
+.titlec a{
+    text-decoration: none;
+}

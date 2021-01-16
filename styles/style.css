@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 10px;
+}
+
+.main_background {
+    background: #2D9CDB;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main_background button {
+    background: #FFFFFF;
+    border-radius: 3%;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.37));
+    color: #2F80ED;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.main_background button:hover {
+    background: #ffffffd0;
+    cursor: pointer;
+}
+
+.primary {
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+.secondary {
+    position: absolute;
+    position: relative;
+    left: 9%;
+    top: calc(50% + 2em);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 2vw;
+    color: #FFFFFF;
+}
+
+
+/* Extra Small */
+
+@media screen and (max-width: 480px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(78% - 5%);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(78% - 32%);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: calc(50% - 2%);
+        bottom: calc(50% - 10%);
+    }
+    .primary {
+        /*  position: relative;
+        top: 20%; */
+        font-size: 18vw;
+    }
+    .secondary {
+        /*   float: left;
+        position: relative;
+        top: 0%; */
+        font-size: 2vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: 10vh;
+        width: 35%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 15px;
+        top: -5vw;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-height: 460px) {
+    .btn * {
+        display: block;
+        font-size: 4vw;
+        width: 70vw;
+        height: 8vh;
+    }
+    .log {
+        position: absolute;
+        right: calc(50% - 35vw);
+        top: 75vh;
+    }
+    .reg {
+        position: absolute;
+        right: calc(50% - 35vw);
+        top: 60vh;
+    }
+    .logo {
+        display: block;
+        width: 60vw;
+        position: absolute;
+        left: 20vw;
+        top: 12vh;
+    }
+    .primary {
+        /*  position: relative;
+        top: 20%; */
+        font-size: 18vw;
+    }
+    .secondary {
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: calc(50% - 17.5%);
+        top: 10vh;
+        width: 40%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: -3vw;
+        top: calc(22vh);
+    }
+}
+
+@media screen and (max-width: 350px) and (min-height: 250px) and (max-height: 400px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(65% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(35% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 60vw;
+        position: absolute;
+        left: 20vw;
+        top: 15vh;
+        visibility: hidden;
+    }
+    .primary {
+        font-size: 18vw;
+    }
+    .secondary {
+        font-size: 3vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: calc(50% - 17.5%);
+        top: 15%;
+        width: 40%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 0px;
+        top: -5vw;
+    }
+}
+
+@media screen and (min-width: 315px) and (max-width: 480px) and (min-height: 400px) and (max-height: 460px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(65% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(35% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 60vw;
+        position: absolute;
+        left: 20vw;
+        top: 15vh;
+        visibility: hidden;
+    }
+    .primary {
+        font-size: 18vw;
+    }
+    .secondary {
+        font-size: 3vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: calc(50% - 17.5%);
+        top: 15%;
+        width: 40%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 0px;
+        top: -5vw;
+    }
+}
+
+
+/* Small */
+
+@media screen and (min-width: 480px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(78% - 5%);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(78% - 32%);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: calc(50% - 2%);
+        bottom: calc(50% - 10%);
+    }
+    .primary {
+        /*  position: relative;
+        top: 20%; */
+        font-size: 18vw;
+    }
+    .secondary {
+        /*   float: left;
+        position: relative;
+        top: 0%; */
+        font-size: 2vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: 10vh;
+        width: 35%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 15px;
+        top: -5vw;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) and (min-height: 400px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(65% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(35% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+        visibility: hidden;
+    }
+    .primary {
+        /*  position: relative;
+        top: 20%; */
+        font-size: 18vw;
+    }
+    .secondary {
+        /*   float: left;
+        position: relative;
+        top: 0%; */
+        font-size: 2vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: calc(50% - 17.5%);
+        top: 15%;
+        width: 35%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 15px;
+        top: -5vw;
+    }
+}
+
+
+/* Medio */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(78% - 5%);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(78% - 32%);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: calc(50% - 2%);
+        bottom: calc(50% - 10%);
+    }
+    .primary {
+        /*  position: relative;
+        top: 20%; */
+        font-size: 18vw;
+    }
+    .secondary {
+        /*   float: left;
+        position: relative;
+        top: 0%; */
+        font-size: 2vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: 10vh;
+        width: 35%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 15px;
+        top: -5vw;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1000px) and (min-height: 700px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(65% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(35% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+        visibility: hidden;
+    }
+    .primary {
+        /*  position: relative;
+        top: 20%; */
+        font-size: 18vw;
+    }
+    .secondary {
+        /*   float: left;
+        position: relative;
+        top: 0%; */
+        font-size: 2vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: calc(50% - 17.5%);
+        top: 15%;
+        width: 35%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 15px;
+        top: -5vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) and (max-height: 330px) {
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: 0px;
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) and (max-height: 390px) {
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: -15%;
+        width: 35%;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 15px;
+        top: -15vh;
+    }
+}
+
+
+/* Grande */
+
+@media screen and (min-width: 1024px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(78% - 5%);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(78% - 32%);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: calc(50% - 2%);
+        bottom: calc(50% - 10%);
+    }
+    .primary {
+        /*  position: relative;
+        top: 20%; */
+        font-size: 18vw;
+    }
+    .secondary {
+        /*   float: left;
+        position: relative;
+        top: 0%; */
+        font-size: 2vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: 10vh;
+        width: 35%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 15px;
+        top: -70px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 800px) {
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: 20vh;
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-height: 670px) {
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: -15%;
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1240px) and (max-height: 460px) {
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5vw;
+        top: -15%;
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 5000px) and (min-height: 2000px) {
+    .btn * {
+        display: block;
+        font-size: 2vw;
+        width: 24vw;
+        height: 6vw;
+    }
+    .log {
+        position: absolute;
+        right: calc(65% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .reg {
+        position: absolute;
+        right: calc(35% - 12vw);
+        top: calc(88% - 15%);
+    }
+    .logo {
+        display: block;
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+        visibility: hidden;
+    }
+    .primary {
+        /*  position: relative;
+        top: 20%; */
+        font-size: 18vw;
+    }
+    .secondary {
+        /*   float: left;
+        position: relative;
+        top: 0%; */
+        font-size: 2vw;
+    }
+    .text_logo {
+        display: block;
+        float: left;
+        position: absolute;
+        left: calc(50% - 17.5%);
+        top: 15%;
+        width: 35%;
+    }
+    .primary {
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+    .secondary {
+        display: block;
+        float: left;
+        position: relative;
+        left: 15px;
+        top: -5vw;
+    }
+}
+
+
+/* Extra grande */
+
+@media screen and (min-width: 1800px) {
+    .secondary {
+        visibility: hidden;
+    }
+}

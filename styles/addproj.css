@@ -1,0 +1,260 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 1rem;
+  }
+  #titlecad {
+    text-align: center;
+  }
+  .cabecalho {
+    /* background: green;*/
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+  }
+  /* Nome Blue */
+  .titlec {
+    order: 2;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10vw;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+    text-align: center;
+  }
+  .logo img {
+    width: 75%;
+    height: 75%;
+  }
+  .logotitle {
+    /* background: purple; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .seusdados {
+    width: 95%;
+    height: 80%;
+  }
+  /* fim cabecalho */
+}
+
+/* Small */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  #titlecad {
+    text-align: center;
+  }
+  .cabecalho {
+    /* background: green; */
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+  }
+  /* Nome Blue */
+  .titlec {
+    order: 2;
+    text-align: center;
+    font-size: 10vw;
+    color: #FFFFFF;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    order: 3;
+    text-align: center;
+  }
+  .logo img{
+    width: 75%;
+    height: 75%;
+  }
+  .nomeUser {
+    display: none;
+    /* float: right;
+    position: absolute;
+    right: calc(3% + 35px);
+    font-size: 1.5rem;
+    top: calc(50% - 20px); */
+  }
+  .logotitle{
+    /* background: purple; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .seusdados {
+    width: 95%;
+    height: 80%;
+  }
+  /* FIM CABEÇALHO */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  /* estilos aqui */
+  .cabecalho {
+    /* background: green; */
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+  }
+  /* Nome Blue */
+  .titlec {
+    margin-left: 50px;
+  }
+  .logo {
+    float: left;
+    margin-left: -10px;
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  .logotitle {
+    /*background: purple; */
+    width: 30%;
+  }
+  .seusdados {
+    width: 95%;
+    height: 80%;
+  }
+}
+
+/* Grande */
+@media screen and (min-width: 1024px) and (max-width: 1599px) {
+  /* estilos aqui */
+  /* Estilo Padrão se adaptou bem */
+  .cabecalho {
+    /* background: green; */
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+  }
+  /* Nome Blue */
+  .titlec {
+    margin-left: 50px;
+  }
+  .logo {
+    float: left;
+    margin-left: -20px;
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  .logotitle {
+    /*background: purple; */
+    width: 30%;
+  }
+}
+
+/* Extra grande */
+@media screen and (min-width: 1600px) {
+  /* estilos aqui */
+  /* Estilo Padrão se adaptou bem */
+  .cabecalho {
+    /* background: green; */
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+  }
+  /* Nome Blue */
+  .titlec {
+    order: 2;
+    text-align: center;
+    font-size: 10vw;
+    color: #FFFFFF;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    order: 3;
+    text-align: center;
+  }
+  .logo img{
+    width: 75%;
+    height: 75%;
+  }
+  .nomeUser {
+    display: none;
+  }
+  .logotitle{
+    /* background: purple; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+.cabecalho {
+  background: #2D9CDB;
+  height: 100%;
+}
+body {
+  background: #F0F0F7;
+}
+.titlec {
+  margin-left: 50px;
+  color: white;
+}
+.titlec a{
+    text-decoration: none;
+}
+.seusdados {
+  background: white;
+  margin: auto;
+  margin-top: 3%;
+  padding: 10%;
+  text-align: left;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* Esconde o input */
+.btnup {
+  display: none;
+}
+/* Aparência que terá o seletor de arquivo */
+.btnupload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 40px;
+  width: 133px;
+  height: 69.31px;
+  background: #56CCF2;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 8px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 40px;
+  margin: auto;
+  background: #2D9CDB;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+label {
+  font-family: Poppins;
+  font-style: normal;
+  height:normal;
+  color: #9C98A6;
+}
+.nomerarq {
+  word-wrap: break-word;
+  color: red;
+  margin-top: -10%;
+  /* width: 50%; */
+}

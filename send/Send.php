@@ -23,13 +23,13 @@ function Send($codigo){
  	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
 	$mail->SMTPDebug = false;
- 	$mail->Username = "tccblueteste@gmail.com";
- 	$mail->Password = 'tcc55$$aks';
+ 	$mail->Username = "";
+ 	$mail->Password = '';
  	$mail->SMTPSecure = 'ssl';
  	$mail->CharSet = "UTF-8";
     $mail->Port = 465;
 
- 	$mail->setFrom("tccblueteste@gmail.com","Equipe Blue - Autenticação de e-mail");
+ 	$mail->setFrom("","Equipe Blue - Autenticação de e-mail");
  	$mail->addAddress($_SESSION['email']);
 
  	$mail->isHTML(true);
